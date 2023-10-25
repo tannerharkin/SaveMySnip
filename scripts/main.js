@@ -72,4 +72,44 @@ setTimeout(() => {
     document.getElementById('footer').style.opacity = '0';
 }, 30000);
 
+function getFullLanguageCode(shortCode) {
+    const mappings = {
+        'en': 'en-US',
+        'es': 'es-ES'
+    };
+
+    return mappings[shortCode] || shortCode;
+}
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    const defaultLang = "en-US";
+    const userLang = getFullLanguageCode(navigator.language || navigator.languages[0] || defaultLang);
+
+    if (userLang !== defaultLang && userLang.match(/^[a-z]{2}-[A-Z]{2}$/)) {
+        fetch(`translations/${userLang}.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`${response.status} - Failed to fetch translations for ${userLang}.`);
+                }
+                return response.json();
+            })
+			.then(data => {
+                if (typeof data === "object") {
+                    const translationElements = document.querySelectorAll('[data-translate-key]');
+                    translationElements.forEach(element => {
+                        const key = element.getAttribute('data-translate-key');
+                        if (data[key]) {
+                            element.innerHTML = data[key];
+                        }
+                    });
+                } else {
+                    throw new Error(`Received data for ${userLang} is not in the expected format.`);
+                }
+            })
+            .catch(error => {
+                console.log(`The website will use the default English text due to:`, error.message);
+            });
+    }
+});
+
 resetIdleTimeout();
