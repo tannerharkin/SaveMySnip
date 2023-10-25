@@ -75,7 +75,15 @@ setTimeout(() => {
 function getFullLanguageCode(shortCode) {
     const mappings = {
         'en': 'en-US',
-        'es': 'es-ES'
+        'es': 'es-ES',
+        'zh': 'zh-CN',
+        'hi': 'hi-IN',
+        'pt': 'pt-PT',
+        'bn': 'bn-BD',
+        'ru': 'ru-RU',
+        'ja': 'ja-JP',
+        'pa': 'pa-IN',
+        'ko': 'ko-KR'
     };
 
     return mappings[shortCode] || shortCode;
@@ -93,7 +101,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 }
                 return response.json();
             })
-			.then(data => {
+            .then(data => {
                 if (typeof data === "object") {
                     const translationElements = document.querySelectorAll('[data-translate-key]');
                     translationElements.forEach(element => {
