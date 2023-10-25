@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SaveMySnip!</title>
+
+    <meta name="description" content="Easily save screenshots for sharing with SaveMySnip. Just paste and save!">
+    <meta name="keywords" content="screenshots, save, share, SaveMySnip, snip and sketch, snipping tool">
+    <meta name="author" content="Tanner Harkin">
+    <link rel="canonical" href="https://savemysnip.com/" />
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <h1 id="logo">SaveMySnip<i>!</i></h1>
+    <div id="instruction" onclick="hideInstructions();">
+        To capture a screenshot on Windows:
+        <ol>
+            <li>Press <strong>Windows + Shift + S</strong> to use Snip & Sketch.</li>
+            <li>Select the area you want to capture.</li>
+            <li>Click into this window.</li>
+            <li>Press <strong>Ctrl+V</strong> to paste the captured area.</li>
+        </ol>
+        Paste images here as many times as you need!
+        <span>Click here to hide instructions</span>
+    </div>
+    <img id="pastedImage" src="" alt="User Pasted Screenshot">
+    <button id="saveButton" onclick="saveImage()">Save</button>
+    <div id="footer">&copy; 2023 Tanner Harkin. All rights reserved.</div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
