@@ -1,0 +1,10 @@
+{
+    "instructions": "Windows এ স্ক্রিনশট নেওয়ার জন্য:",
+    "instructionStep1": "Snip & Sketch ব্যবহার করতে <strong>Windows + Shift + S</strong> চাপুন।",
+    "instructionStep2": "যে এলাকা আপনি ধরতে চান তা নির্বাচন করুন।",
+    "instructionStep3": "এই উইন্ডোতে ক্লিক করুন।",
+    "instructionStep4": "ধরা এলাকা পেস্ট করতে <strong>Ctrl+V</strong> চাপুন।",
+    "pasteImagesNote": "আপনি যতবার চান ততবার এখানে চবি পেস্ট করুন!",
+    "clickToHide": "নির্দেশনা লুকানোর জন্য এখানে ক্লিক করুন",
+    "saveButtonText": "সংরক্ষণ করুন"
+}

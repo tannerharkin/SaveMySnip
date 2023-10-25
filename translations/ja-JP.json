@@ -1,0 +1,10 @@
+{
+    "instructions": "Windowsでスクリーンショットを撮る方法：",
+    "instructionStep1": "<strong>Windows + Shift + S</strong> を押して Snip & Sketch を使用します。",
+    "instructionStep2": "キャプチャする領域を選択します。",
+    "instructionStep3": "このウィンドウをクリックします。",
+    "instructionStep4": "キャプチャした領域を貼り付けるには <strong>Ctrl+V</strong> を押します。",
+    "pasteImagesNote": "必要な回数だけここに画像を貼り付けてください！",
+    "clickToHide": "指示を隠すにはここをクリック",
+    "saveButtonText": "保存"
+}

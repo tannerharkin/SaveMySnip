@@ -1,0 +1,10 @@
+{
+    "instructions": "Чтобы сделать снимок экрана на Windows:",
+    "instructionStep1": "Нажмите <strong>Windows + Shift + S</strong> чтобы использовать Snip & Sketch.",
+    "instructionStep2": "Выберите область, которую хотите захватить.",
+    "instructionStep3": "Кликните по этому окну.",
+    "instructionStep4": "Нажмите <strong>Ctrl+V</strong>, чтобы вставить захваченную область.",
+    "pasteImagesNote": "Вставляйте изображения здесь столько раз, сколько нужно!",
+    "clickToHide": "Нажмите здесь, чтобы скрыть инструкции",
+    "saveButtonText": "Сохранить"
+}

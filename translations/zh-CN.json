@@ -1,0 +1,10 @@
+{
+    "instructions": "如何在Windows上截图：",
+    "instructionStep1": "按 <strong>Windows + Shift + S</strong> 使用 Snip & Sketch。",
+    "instructionStep2": "选择要捕捉的区域。",
+    "instructionStep3": "点击这个窗口。",
+    "instructionStep4": "按 <strong>Ctrl+V</strong> 粘贴捕获的区域。",
+    "pasteImagesNote": "需要时可多次在此粘贴图像！",
+    "clickToHide": "点击此处隐藏说明",
+    "saveButtonText": "保存"
+}

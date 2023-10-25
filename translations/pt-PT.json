@@ -1,0 +1,10 @@
+{
+    "instructions": "Para capturar uma captura de ecrã no Windows:",
+    "instructionStep1": "Pressione <strong>Windows + Shift + S</strong> para usar o Snip & Sketch.",
+    "instructionStep2": "Selecione a área que deseja capturar.",
+    "instructionStep3": "Clique nesta janela.",
+    "instructionStep4": "Pressione <strong>Ctrl+V</strong> para colar a área capturada.",
+    "pasteImagesNote": "Cole imagens aqui quantas vezes precisar!",
+    "clickToHide": "Clique aqui para ocultar as instruções",
+    "saveButtonText": "Guardar"
+}
